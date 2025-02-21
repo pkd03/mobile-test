@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="57dp"
+        android:background="#03A9F4"
+        android:text="Quản lý tài chính cá nhân"
+        android:textAlignment="center"
+        android:textColor="#E8E3E3"
+        android:textSize="30sp"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/h_nh" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_thu"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tiền thu"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_chi"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tiền chi"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_thongke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Thống kê"
+        android:textSize="24sp" />
+
+</LinearLayout>

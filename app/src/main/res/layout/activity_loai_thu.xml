@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="#03A9F4"
+        android:text="Thêm loại thu"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/ma_loai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã loại thu"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/ten_loai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên loại thu"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_sua"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sửa" />
+
+        <Button
+            android:id="@+id/btn_xoa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xóa" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_LoaiChi"
+        android:layout_width="match_parent"
+        android:layout_height="456dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay lại" />
+
+        <Button
+            android:id="@+id/btn_them"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thêm loại thu" />
+    </LinearLayout>
+
+</LinearLayout>
